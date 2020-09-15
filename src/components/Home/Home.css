@@ -1,0 +1,12 @@
+.home {
+  width: 100%;
+  min-height: calc(100vh - 58px);
+  padding-bottom: 28px;
+  position: relative;
+}
+
+.home .container:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
