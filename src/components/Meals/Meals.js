@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { MealsContext } from "../../config";
+import { MealsContext } from "../../context/MealsContext";
 import "./Meals.css";
 
 const Meals = () => {
@@ -11,7 +11,7 @@ const Meals = () => {
         <h2 className="errorMsg">
           {search
             ? `Sorry, we couldn't find anything about ${search}.`
-            : `Sorry, we couldn't find what you were looking for.`}
+            : `(Require API ID & API Key in config file)`}
         </h2>
       )}
       {recipes &&

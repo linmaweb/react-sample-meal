@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { MealsContext } from "../../config";
+import { MealsContext } from "../../context/MealsContext";
 import Search from "../Search/Search";
 import Meals from "../Meals/Meals";
 import Pagination from "../Pagination/Pagination";

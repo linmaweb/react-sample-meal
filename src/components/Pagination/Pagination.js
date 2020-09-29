@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { MealsContext } from "../../config";
+import { MealsContext } from "../../context/MealsContext";
 import "./Pagination.css";
 
 const Pagination = () => {

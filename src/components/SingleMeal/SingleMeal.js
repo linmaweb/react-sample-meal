@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link, useParams } from "react-router-dom";
-import { MealsContext } from "../../config";
+import { MealsContext } from "../../context/MealsContext";
 import "./SingleMeal.css";
 
 const SingleMeal = () => {
